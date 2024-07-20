@@ -2,8 +2,13 @@
 This repository contains a binary search and a linear search.
 to use either, remove the comments of one of the sections that you want to use. 
 This will not work if you remove all comments since they are both in the same file.
-The binary search has to b e sorted, and the linear search can be any way you want it to.
-built by Brett Hoey.
+The binary search has to be sorted, and the linear search can be any way you want it to.
+To edit this program and do your own searches, chose weather you would like to use the binary
+or linear search, then go to the line where it says int[nums] = {2,,4,6,etc.} and edit the numbers to your own.
+With the binary search, your numbers must be in chronological order or it will not work.
+Last, edit the target number to the number you want to find in the list.
+Thank you for viewing my application, feedback is appriciated.
+Built by Brett Hoey.
 Bretthoey23@gmail.com
 
 
