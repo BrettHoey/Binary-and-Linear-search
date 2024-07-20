@@ -9,6 +9,7 @@ With the binary search, your numbers must be in chronological order or it will n
 Last, edit the target number to the number you want to find in the list.
 Thank you for viewing my application, feedback is appriciated.
 Built by Brett Hoey.
+Dotnet framework used.
 Bretthoey23@gmail.com
 
 
