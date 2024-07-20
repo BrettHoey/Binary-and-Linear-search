@@ -1,4 +1,16 @@
-﻿using System;
+/* 
+This repository contains a binary search and a linear search.
+to use either, remove the comments of one of the sections that you want to use. 
+This will not work if you remove all comments since they are both in the same file.
+The binary search has to b e sorted, and the linear search can be any way you want it to.
+built by Brett Hoey.
+Bretthoey23@gmail.com
+
+
+
+
+/*
+using System;
 
 namespace BinarySearchProject{
      class Program
@@ -45,15 +57,44 @@ namespace BinarySearchProject{
 
 }
 
+*/
 
+/*
+using System;
 
+namespace BinarySearchProject{
+     class Program
+     {
+        static void Main(string[] args)
+        {
+            int[] nums = {233333,424,621,8,133330,1212,13334,22,24255,355555,5664252,67777,837,333,67844,900,3333,44444,55555,62000};
+            int target = 44444;
+            int index = LinearSearch(nums,target);
 
+            if(index != -1)
+            {
+                Console.WriteLine("Your value " + target + " was found at index " + index);
+            }
+            else{
+                Console.WriteLine("Error, target value is not in list");
+            }
 
+        }
+        public static int LinearSearch(int[]array , int target)
+        {
+            for(int i = 0; i<array.Length - 1; i++)
+            {
+                if(array[i] == target)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+     }
 
-
-
-
-
+}
+*/
 
 
 
